@@ -1,0 +1,14 @@
+20 possible symbols can show up
+
+deck < 20 = add expected value for each symbol
+deck > 20 = add expected values * decksize / 20 for each symbol
+
+4 x 5 grid 
+
+20 * 19 possible ways to have two symbols 
+4 * 3 adj spaces
+10 * 5 adj space 
+6 * 8 adj spaces
+12 + 50 + 48
+110 / 380 chance of any two symbols being adj if deck is less than 20 
+110 / (decksize * (decksize-1)) if decksize > 20
